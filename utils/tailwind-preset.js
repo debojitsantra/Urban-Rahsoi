@@ -35,7 +35,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-       'logo': "url('./components/logo.svg')",
+       'logo': "url('/components/logo.svg')",
       },
       colors: {
         primary: 'var(--color-primary)',
