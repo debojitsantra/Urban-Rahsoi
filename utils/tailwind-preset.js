@@ -35,7 +35,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-       'logo': "url('/components/logo.svg')",
+'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
         primary: 'var(--color-primary)',
